@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('/assets/css/root.css');
 *{
     margin: 0;
@@ -6,9 +7,7 @@
     text-decoration: none;
     list-style-type: none;
 }
-.container{
-    max-width: 1320px !important;
-}
+
 .button{
     padding: 6px 22px;
     border-radius: 17px;
@@ -58,6 +57,11 @@
 .menu {
     z-index: 3;
 }
+
+.py-120{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 @media(min-width:470px) {
     .mobileView {
         display: flex;
@@ -75,7 +79,11 @@
     }
 
 }
-
+@media(min-width:992px){
+    .paragraph-3{
+        max-width: 479px;
+    }
+}
 @media(min-width:1200px){
     .gap-8{
         gap: 8px;
@@ -97,7 +105,7 @@
         height: 100vh;
     }
 }
-@media(min-width:1250px){
+@media(min-width:1400px){
     .gap-15{
         gap: 15px;
     }
