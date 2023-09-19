@@ -1,0 +1,69 @@
+:root{
+
+    /* font families */
+    --ff-Poppins:'Poppins', sans-serif;
+    --ff-Source-Sans-3:'Source Sans 3', sans-serif;
+
+
+    /* font sizes */
+    --l-f:48px;
+    --md-f:18px;
+    --s-f:16px;
+
+    /* font weights */
+    --fw-600:600;
+    --fw-400:400;
+
+    /* colors */
+    --color-black:#000000;
+    --color-gray:#C4C4C4;
+    --color-light-gray:#E5E5E5;
+    --color-red:#C2190E;
+    --color-white:#FFFFFF;
+    }
+
+.ff-Rubik{
+    font-family: var(--ff-Rubik);
+}
+
+
+.fw-600{
+    font-weight: var(--fw-600);
+}
+.fw-400{
+    font-weight: var(--fw-400);
+}
+
+
+
+.l-f{
+    font-size: var(--l-f);
+}
+.md-f{
+    font-size: var(--md-f);
+}
+.s-f{
+    font-size: var(--s-f);
+}
+
+
+
+
+.color-black{
+    color: var(--color-black);
+}
+.color-gray{
+    color: var(--color-gray);
+}
+.color-light-gray{
+    color: var(--color-light-gray);
+}
+.color-red{
+    color: var(--color-red);
+}
+.color-white{
+    color: var(--color-white);
+}
+.background-color-red{
+    background-color: var(--color-red);
+}
