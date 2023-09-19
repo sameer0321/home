@@ -34,7 +34,7 @@
 
 .fw-600{
     font-weight: var(--fw-600);
-}
+} 
 .fw-400{
     font-weight: var(--fw-400);
 }
@@ -73,7 +73,7 @@
 }
 .color-white{
     color: var(--color-white);
-}
+}   
 .background-color-red{
     background-color: var(--color-red);
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url(./root.css);
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,25 @@
     text-decoration: none !important;
 }
 /* max-width */
-.f-sec-peragraph{
-    
+.paragraph-1{
+    max-width: 470px;
+}
+.paragraph-2{
+    max-width:400px;
+}
+
+/* opacity */
+.opacity-07{
+    opacity: 0.7;
+}
+/* padding */
+.pl-8{
+    padding-left:8px;
+}
+.py-120{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.pb-31{
+    padding-bottom: 31px;
 }
