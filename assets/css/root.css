@@ -11,6 +11,7 @@
     --md-f:20px;
     --s-f:18px;
     --vs-f:16px;
+    --vvs-f:14px;
 
     /* font weights */
     --fw-600:600;
@@ -55,7 +56,9 @@
 .vs-f{
     font-size: var(--vs-f);
 }
-
+.vvs-f{
+    font-size: var(--vvs-f);
+}
 
 
 
@@ -76,4 +79,8 @@
 }   
 .background-color-red{
     background-color: var(--color-red);
+}
+.background-color-black{
+    background-color:var(--color-black);
+
 }

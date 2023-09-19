@@ -34,3 +34,15 @@ max-width: 554px;
 .pb-31{
     padding-bottom: 31px;
 }
+/* footer */
+.footer-bottom{
+    border-bottom: 1px solid red;
+}
+ul {
+    padding-left: 0 !important;
+}
+.line{
+    color: #fff;
+    height: 2px;
+    opacity: 0.7;
+}
