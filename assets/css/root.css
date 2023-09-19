@@ -6,9 +6,11 @@
 
 
     /* font sizes */
-    --l-f:48px;
-    --md-f:18px;
-    --s-f:16px;
+    --xl-f:48px;
+    --l-f:36px;
+    --md-f:20px;
+    --s-f:18px;
+    --vs-f:16px;
 
     /* font weights */
     --fw-600:600;
@@ -35,7 +37,9 @@
 }
 
 
-
+.xl-f{
+    font-size: var(--xl-f);
+}
 .l-f{
     font-size: var(--l-f);
 }
@@ -44,6 +48,9 @@
 }
 .s-f{
     font-size: var(--s-f);
+}
+.vs-f{
+    font-size: var(--vs-f);
 }
 
 
