@@ -24,8 +24,11 @@
     --color-white:#FFFFFF;
     }
 
-.ff-Rubik{
-    font-family: var(--ff-Rubik);
+.ff-Poppins{
+    font-family: var(--ff-Poppinsgi);
+}
+.ff-Source-Sans-3{
+    font-family: var(--ff-Source-Sans-3);
 }
 
 
