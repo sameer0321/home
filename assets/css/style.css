@@ -144,7 +144,9 @@ body {
     display: flex !important;
     gap: 30px !important;
 }
-
+.slick-prev, .slick-next{
+    display: none !important;
+}
 
 /* cards */
 
@@ -196,8 +198,13 @@ body {
         color: #C2190E !important;
         font-size: 45px !important;
         opacity: unset !important;
+        display: block;
 
     }
+    .slick-prev, .slick-next{
+        display: block !important;
+    }
+    
 }
 
 @media(min-width:992px) {
