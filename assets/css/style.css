@@ -144,7 +144,9 @@ body {
     display: flex !important;
     gap: 30px !important;
 }
-.slick-prev, .slick-next{
+
+.slick-prev,
+.slick-next {
     display: none !important;
 }
 
@@ -193,18 +195,30 @@ body {
         border: none !important;
     }
 
-    .slick-prev:before,
+    .slick-prev:before{
+        color: #C2190E !important;
+        font-size: 45px !important;
+        opacity: unset !important;
+        position: absolute;
+        left: -11px;
+        display: block;
+
+    }
     .slick-next:before {
         color: #C2190E !important;
         font-size: 45px !important;
         opacity: unset !important;
+        position: absolute;
+        right: -12px;
         display: block;
 
     }
-    .slick-prev, .slick-next{
+
+    .slick-prev,
+    .slick-next {
         display: block !important;
     }
-    
+
 }
 
 @media(min-width:992px) {
