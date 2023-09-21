@@ -2,21 +2,17 @@
 
     /* font families */
     --ff-Poppins:'Poppins', sans-serif;
-    --ff-Source-Sans-3:'Source Sans 3', sans-serif;
 
 
     /* font sizes */
-    --xl-f:48px;
-    --l-f:36px;
-    --md-f:20px;
-    --s-f:18px;
-    --vs-f:16px;
-    --vvs-f:14px;
+    --fs-extra-large:48px;
+    --fs-large:36px;
+    --fs-medium:20px;
+    --fs-small:18px;
+    --fs-very-small:16px;
+    --fs-very-very-small:14px;
 
-    /* font weights */
-    --fw-600:600;
-    --fw-400:400;
-
+    
     /* colors */
     --color-black:#000000;
     --color-gray:#C4C4C4;
@@ -25,42 +21,34 @@
     --color-white:#FFFFFF;
     }
 
+/* font familiy */
+
 .ff-Poppins{
     font-family: var(--ff-Poppinsgi);
 }
-.ff-Source-Sans-3{
-    font-family: var(--ff-Source-Sans-3);
+
+/* font sizes */
+
+.fs-extra-large{
+    font-size: var(--fs-extra-large);
+}
+.fs-large{
+    font-size: var(--fs-large);
+}
+.fs-medium{
+    font-size: var(--fs-medium);
+}
+.fs-small{
+    font-size: var(--fs-small);
+}
+.fs-very-small{
+    font-size: var(--fs-very-small);
+}
+.fs-very-very-small{
+    font-size: var(--fs-very-very-small);
 }
 
-
-.fw-600{
-    font-weight: var(--fw-600);
-} 
-.fw-400{
-    font-weight: var(--fw-400);
-}
-
-
-.xl-f{
-    font-size: var(--xl-f);
-}
-.l-f{
-    font-size: var(--l-f);
-}
-.md-f{
-    font-size: var(--md-f);
-}
-.s-f{
-    font-size: var(--s-f);
-}
-.vs-f{
-    font-size: var(--vs-f);
-}
-.vvs-f{
-    font-size: var(--vvs-f);
-}
-
-
+/* colors */
 
 .color-black{
     color: var(--color-black);
@@ -82,5 +70,4 @@
 }
 .background-color-black{
     background-color:var(--color-black);
-
 }
