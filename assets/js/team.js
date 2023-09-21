@@ -12,11 +12,10 @@ menu.addEventListener("click", function () {
     span1.classList.toggle("rotate1");
     span2.classList.toggle("rotate2");
     span3.classList.toggle("rotate3");
-
-
 })
 navlinks.addEventListener("click", function () {
-    navlinks.classList.remove("show");
+    navlinks.classList.toggle("show");
+    body.classList.remove("overflow-hidden");
     span1.classList.toggle("rotate1");
     span2.classList.toggle("rotate2");
     span3.classList.toggle("rotate3");
